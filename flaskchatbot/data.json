@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Hello! How can I assist you?", "Hi there! How may I help you today?"]
+    },
+    {
+      "tag": "about_college",
+      "patterns": ["Tell me about Panimalar Engineering College", "What is Panimalar Engineering College?", "About the college"],
+      "responses": ["Panimalar Engineering College is an esteemed institution located in Chennai, Tamil Nadu. It offers a wide range of engineering programs and provides excellent facilities for students."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses does Panimalar Engineering College offer?", "Tell me about the courses available at Panimalar Engineering College", "Courses offered"],
+      "responses": ["Panimalar Engineering College offers undergraduate and postgraduate programs in various engineering disciplines such as Mechanical Engineering, Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Civil Engineering, and more."]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How can I apply for admission to Panimalar Engineering College?", "Admission process", "Application procedure"],
+      "responses": ["For admission to Panimalar Engineering College, you need to visit the college's official website and follow the admission guidelines provided. You can also contact the college admission office for further assistance."]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["What facilities are available at Panimalar Engineering College?", "Tell me about the facilities", "Infrastructure"],
+      "responses": ["Panimalar Engineering College provides state-of-the-art facilities including well-equipped laboratories, libraries, sports facilities, hostel accommodations, and more. The college focuses on providing a conducive learning environment for students."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["How is the placement scenario at Panimalar Engineering College?", "Placement opportunities", "Job placements"],
+      "responses": ["Panimalar Engineering College has a dedicated placement cell that helps students secure job placements in top companies. The college has a strong industry connection and conducts various placement drives and training programs to prepare students for their careers."]
+    },
+    {
+      "tag": "faculty",
+      "patterns": ["Tell me about the faculty at Panimalar Engineering College", "Faculty members", "Teaching staff"],
+      "responses": ["The faculty at Panimalar Engineering College consists of highly qualified and experienced professionals who are dedicated to providing quality education to students. They are experts in their respective fields and are committed to the overall development of students."]
+    },
+    {
+      "tag": "events",
+      "patterns": ["What events are organized at Panimalar Engineering College?", "College events", "Cultural events"],
+      "responses": ["Panimalar Engineering College organizes various events throughout the year, including technical symposiums, cultural festivals, seminars, workshops, and more. These events provide students with opportunities to showcase their talents and interact with industry experts."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact Panimalar Engineering College?", "Contact details", "Address"],
+      "responses": ["You can contact Panimalar Engineering College at the following address: XYZ Street, Chennai, Tamil Nadu. You can also reach them via phone at +91-XXXXXXX or email at info@example.com."]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome! Feel free to ask if you have any more questions."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["", "Sorry, I don't understand", "Can you repeat that?"],
+      "responses": ["I'm sorry, I didn't quite catch that. Could you please rephrase your question?"]
+    }
+  ]
+}
